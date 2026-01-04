@@ -1,0 +1,36 @@
+.hero {
+    margin-top: 4rem;
+}
+
+.hero__name {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.hero__bio {
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+}
+
+.hero__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hero__links a {
+    color: var(--text-muted);
+    padding: 0.25rem 0;
+    font-size: 0.875rem;
+}
+
+.hero__links a:hover {
+    color: var(--accent);
+}
+
+.hero__links a::before {
+    content: '>';
+    margin-right: 0.5rem;
+    color: var(--accent);
+}

@@ -1,0 +1,109 @@
+/* Admin header */
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+}
+
+.admin-header__title {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+}
+
+.admin-header__nav {
+    display: flex;
+    gap: 1rem;
+    font-size: 0.875rem;
+}
+
+/* Admin login */
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.login__box {
+    width: 100%;
+    max-width: 360px;
+    padding: 2rem;
+}
+
+.login__title {
+    font-size: 1rem;
+    color: var(--text-muted);
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.login__back {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.75rem;
+}
+
+.login__back a {
+    color: var(--text-muted);
+}
+
+.login__back a:hover {
+    color: var(--accent);
+}
+
+/* Posts table */
+.posts-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.posts-table th,
+.posts-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid var(--border);
+    font-size: 0.875rem;
+}
+
+.posts-table th {
+    color: var(--text-muted);
+    font-weight: 500;
+}
+
+.status {
+    font-size: 0.75rem;
+}
+
+.status--published {
+    color: var(--accent);
+}
+
+.status--draft {
+    color: var(--text-muted);
+}
+
+.actions {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.actions form {
+    display: inline-flex;
+}
+
+.actions .btn {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.75rem;
+    min-width: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
+.empty--center {
+    text-align: center;
+    padding: 2rem;
+}
